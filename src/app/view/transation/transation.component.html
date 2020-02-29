@@ -1,0 +1,19 @@
+<div class="container">
+  <div class="split left">
+    <!--  <textarea [(ngModel)]="transaction"></textarea>-->
+    <div class="row"><b>Upload your file here</b> <input type='file' (change)="previewFile($event)"></div>
+    <ngx-json-viewer [json]="transaction" [expanded]="false"></ngx-json-viewer>
+    <p-button label="Verify Transaction Detail" (onClick)="uploadFile($event)"></p-button>
+  </div>
+  <div class="split right">
+    <div><b>Response</b></div>
+    <div class="result">Result : {{result.result}}</div>
+    <div *ngFor="let error of result.errorRecords">
+      <div class="block">
+        <div>Reference : {{ error.reference}}</div>
+        <div>accountNumber : {{ error.accountNumber}}</div>
+      </div>
+      <div style="background: white; height: 2px"></div>
+    </div>
+  </div>
+</div>

@@ -1,0 +1,21 @@
+{
+  "result": "DUPLICATE_REF",
+  "errorRecords": [
+    {
+      "reference": "1232131",
+      "accountNumber": "Afsdsdfsdfr4343"
+    },
+    {
+      "reference": "3534",
+      "accountNumber": "Afsdsdfsdfr4343"
+    },
+    {
+      "reference": "34234",
+      "accountNumber": "Afsdsdfsdfr4343"
+    },
+    {
+      "reference": "5454",
+      "accountNumber": "Afsdsdfsdfr4343"
+    }
+  ]
+}
