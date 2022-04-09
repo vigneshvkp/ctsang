@@ -50,7 +50,7 @@
     "jquery": "^3.3.1",
     "jspdf": "^1.5.3",
     "jspdf-autotable": "^3.2.4",
-    "moment": "^2.24.0",
+    "moment": "^2.29.2",
     "ng2-validation": "4.2.0",
     "ngx-chips": "2.0.2",
     "ngx-color-picker": "8.1.0",
